@@ -1,4 +1,4 @@
-module github.com/evmos/ethermint
+module github.com/Null-nil/ethermint
 
 go 1.19
 
@@ -6,7 +6,7 @@ require (
 	cosmossdk.io/errors v1.0.0-beta.7
 	cosmossdk.io/math v1.0.0-beta.4
 	github.com/armon/go-metrics v0.4.1
-	github.com/btcsuite/btcd v0.22.1
+	github.com/Null-nil/btcd v0.25.0
 	github.com/btcsuite/btcutil v1.0.3-0.20201208143702-a53e38424cce
 	github.com/cosmos/cosmos-proto v1.0.0-beta.1
 	github.com/cosmos/cosmos-sdk v0.46.6
@@ -33,7 +33,7 @@ require (
 	github.com/spf13/viper v1.14.0
 	github.com/status-im/keycard-go v0.0.0-20200402102358-957c09536969
 	github.com/stretchr/testify v1.8.1
-	github.com/tendermint/tendermint v0.34.23
+	github.com/Null-nil/tendermint v0.50.0
 	github.com/tendermint/tm-db v0.6.7
 	github.com/tyler-smith/go-bip39 v1.1.0
 	golang.org/x/net v0.4.0

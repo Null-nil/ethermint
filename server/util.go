@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/evmos/ethermint/server/config"
+	"github.com/Null-nil/ethermint/server/config"
 	"github.com/gorilla/mux"
 	"github.com/improbable-eng/grpc-web/go/grpcweb"
 	"github.com/spf13/cobra"
@@ -15,9 +15,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/server/types"
 	"github.com/cosmos/cosmos-sdk/version"
 
-	tmcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	rpcclient "github.com/tendermint/tendermint/rpc/jsonrpc/client"
+	tmcmd "github.com/Null-nil/tendermint/cmd/tendermint/commands"
+	tmlog "github.com/Null-nil/tendermint/libs/log"
+	rpcclient "github.com/Null-nil/tendermint/rpc/jsonrpc/client"
 )
 
 // AddCommands adds server commands

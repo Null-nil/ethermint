@@ -3,15 +3,15 @@ package client
 import (
 	"bufio"
 
+	"github.com/Null-nil/tendermint/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/keys"
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tendermint/libs/cli"
 
+	clientkeys "github.com/Null-nil/ethermint/client/keys"
+	"github.com/Null-nil/ethermint/crypto/hd"
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	clientkeys "github.com/evmos/ethermint/client/keys"
-	"github.com/evmos/ethermint/crypto/hd"
 )
 
 // KeyCommands registers a sub-tree of commands to interact with

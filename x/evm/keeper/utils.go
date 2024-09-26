@@ -9,7 +9,7 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"

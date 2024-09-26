@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/Null-nil/tendermint/libs/log"
 
-	"github.com/evmos/ethermint/rpc/backend"
+	"github.com/Null-nil/ethermint/rpc/backend"
 )
 
 // API is the private miner prefixed set of APIs in the Miner JSON-RPC spec.

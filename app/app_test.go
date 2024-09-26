@@ -8,10 +8,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/Null-nil/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/evmos/ethermint/encoding"
+	"github.com/Null-nil/ethermint/encoding"
 )
 
 func TestEthermintAppExport(t *testing.T) {

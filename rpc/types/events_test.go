@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
+	abci "github.com/Null-nil/tendermint/abci/types"
 	"github.com/ethereum/go-ethereum/common"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
 )
 
 func TestParseTxResult(t *testing.T) {

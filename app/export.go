@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 	"github.com/cosmos/cosmos-sdk/simapp"
@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/staking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/ethermint/encoding"
+	"github.com/Null-nil/ethermint/encoding"
 )
 
 // NewDefaultGenesisState generates the default state for the application.

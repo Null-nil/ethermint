@@ -2,7 +2,7 @@ package evm_test
 
 import (
 	"errors"
-	"github.com/evmos/ethermint/x/evm/keeper"
+	"github.com/Null-nil/ethermint/x/evm/keeper"
 	"math/big"
 	"testing"
 	"time"
@@ -10,13 +10,13 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/gogo/protobuf/proto"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmjson "github.com/tendermint/tendermint/libs/json"
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmjson "github.com/Null-nil/tendermint/libs/json"
 
+	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
 
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/common"
@@ -31,19 +31,19 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/ethermint/app"
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	"github.com/evmos/ethermint/tests"
-	ethermint "github.com/evmos/ethermint/types"
-	"github.com/evmos/ethermint/x/evm"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	"github.com/evmos/ethermint/x/evm/types"
+	"github.com/Null-nil/ethermint/app"
+	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
+	"github.com/Null-nil/ethermint/tests"
+	ethermint "github.com/Null-nil/ethermint/types"
+	"github.com/Null-nil/ethermint/x/evm"
+	"github.com/Null-nil/ethermint/x/evm/statedb"
+	"github.com/Null-nil/ethermint/x/evm/types"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	tmversion "github.com/tendermint/tendermint/proto/tendermint/version"
+	"github.com/Null-nil/tendermint/crypto/tmhash"
+	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
+	tmversion "github.com/Null-nil/tendermint/proto/tendermint/version"
 
-	"github.com/tendermint/tendermint/version"
+	"github.com/Null-nil/tendermint/version"
 )
 
 type EvmTestSuite struct {

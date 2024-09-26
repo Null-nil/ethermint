@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	coretypes "github.com/tendermint/tendermint/rpc/core/types"
+	coretypes "github.com/Null-nil/tendermint/rpc/core/types"
 )
 
 type UnsubscribeFunc func()

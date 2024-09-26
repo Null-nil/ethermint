@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	tmlog "github.com/tendermint/tendermint/libs/log"
+	tmlog "github.com/Null-nil/tendermint/libs/log"
 
 	errorsmod "cosmossdk.io/errors"
 	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
@@ -14,7 +14,7 @@ import (
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
+	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
 )
 
 const (

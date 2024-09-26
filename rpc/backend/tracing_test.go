@@ -2,18 +2,18 @@ package backend
 
 import (
 	"fmt"
+	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
+	"github.com/Null-nil/ethermint/indexer"
+	"github.com/Null-nil/ethermint/rpc/backend/mocks"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmlog "github.com/Null-nil/tendermint/libs/log"
+	tmrpctypes "github.com/Null-nil/tendermint/rpc/core/types"
+	"github.com/Null-nil/tendermint/types"
+	tmtypes "github.com/Null-nil/tendermint/types"
 	"github.com/cosmos/cosmos-sdk/crypto"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/ethermint/crypto/ethsecp256k1"
-	"github.com/evmos/ethermint/indexer"
-	"github.com/evmos/ethermint/rpc/backend/mocks"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
-	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 
@@ -180,7 +180,7 @@ func (suite *BackendTestSuite) TestTraceTransaction() {
 			suite.backend.indexer = indexer.NewKVIndexer(db, tmlog.NewNopLogger(), suite.backend.clientCtx)
 
 			err := suite.backend.indexer.IndexBlock(tc.block, tc.responseBlock)
-            suite.Require().NoError(err)
+			suite.Require().NoError(err)
 			txResult, err := suite.backend.TraceTransaction(txHash, nil)
 
 			if tc.expPass {

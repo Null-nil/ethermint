@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Null-nil/tendermint/libs/bytes"
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tendermint/libs/bytes"
 
 	"github.com/ethereum/go-ethereum/common"
 

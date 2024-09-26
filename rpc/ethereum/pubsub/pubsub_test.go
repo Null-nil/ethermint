@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	coretypes "github.com/Null-nil/tendermint/rpc/core/types"
 	"github.com/stretchr/testify/require"
-	coretypes "github.com/tendermint/tendermint/rpc/core/types"
 )
 
 func TestAddTopic(t *testing.T) {

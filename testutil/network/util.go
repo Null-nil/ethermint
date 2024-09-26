@@ -6,15 +6,15 @@ import (
 	"path/filepath"
 	"time"
 
+	tmos "github.com/Null-nil/tendermint/libs/os"
+	"github.com/Null-nil/tendermint/node"
+	"github.com/Null-nil/tendermint/p2p"
+	pvm "github.com/Null-nil/tendermint/privval"
+	"github.com/Null-nil/tendermint/proxy"
+	"github.com/Null-nil/tendermint/rpc/client/local"
+	"github.com/Null-nil/tendermint/types"
+	tmtime "github.com/Null-nil/tendermint/types/time"
 	"github.com/ethereum/go-ethereum/ethclient"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/node"
-	"github.com/tendermint/tendermint/p2p"
-	pvm "github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/rpc/client/local"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
 
 	"github.com/cosmos/cosmos-sdk/server/api"
 	servergrpc "github.com/cosmos/cosmos-sdk/server/grpc"
@@ -29,8 +29,8 @@ import (
 	mintypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/ethermint/server"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Null-nil/ethermint/server"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 )
 
 func startInProcess(cfg Config, val *Validator) error {

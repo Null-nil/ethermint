@@ -12,11 +12,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
+	tmconfig "github.com/Null-nil/tendermint/config"
+	tmrand "github.com/Null-nil/tendermint/libs/rand"
+	"github.com/Null-nil/tendermint/types"
+	tmtime "github.com/Null-nil/tendermint/types/time"
 	"github.com/spf13/cobra"
-	tmconfig "github.com/tendermint/tendermint/config"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -38,13 +38,13 @@ import (
 	mintypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/ethermint/crypto/hd"
-	"github.com/evmos/ethermint/server/config"
-	srvflags "github.com/evmos/ethermint/server/flags"
-	ethermint "github.com/evmos/ethermint/types"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
+	"github.com/Null-nil/ethermint/crypto/hd"
+	"github.com/Null-nil/ethermint/server/config"
+	srvflags "github.com/Null-nil/ethermint/server/flags"
+	ethermint "github.com/Null-nil/ethermint/types"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 
-	"github.com/evmos/ethermint/testutil/network"
+	"github.com/Null-nil/ethermint/testutil/network"
 )
 
 var (

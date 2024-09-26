@@ -1,9 +1,9 @@
 package types
 
 import (
+	abci "github.com/Null-nil/tendermint/abci/types"
+	tmtypes "github.com/Null-nil/tendermint/types"
 	"github.com/ethereum/go-ethereum/common"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmtypes "github.com/tendermint/tendermint/types"
 )
 
 // EVMTxIndexer defines the interface of custom eth tx indexer.

@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/service"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/types"
+	"github.com/Null-nil/tendermint/libs/service"
+	rpcclient "github.com/Null-nil/tendermint/rpc/client"
+	"github.com/Null-nil/tendermint/types"
 
-	ethermint "github.com/evmos/ethermint/types"
+	ethermint "github.com/Null-nil/ethermint/types"
 )
 
 const (

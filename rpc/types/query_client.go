@@ -5,13 +5,13 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/tx"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/proto/tendermint/crypto"
+	abci "github.com/Null-nil/tendermint/abci/types"
+	"github.com/Null-nil/tendermint/proto/tendermint/crypto"
 
 	"github.com/cosmos/cosmos-sdk/client"
 
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
-	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
+	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"
 )
 
 // QueryClient defines a gRPC Client used for:

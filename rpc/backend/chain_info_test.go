@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"math/big"
 
+	rpc "github.com/Null-nil/ethermint/rpc/types"
+	"github.com/Null-nil/ethermint/tests"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
-	rpc "github.com/evmos/ethermint/rpc/types"
-	"github.com/evmos/ethermint/tests"
 	"google.golang.org/grpc/metadata"
 
+	"github.com/Null-nil/tendermint/abci/types"
+	tmrpctypes "github.com/Null-nil/tendermint/rpc/core/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/tendermint/tendermint/abci/types"
-	tmrpctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/evmos/ethermint/rpc/backend/mocks"
-	evmtypes "github.com/evmos/ethermint/x/evm/types"
-	feemarkettypes "github.com/evmos/ethermint/x/feemarket/types"
+	"github.com/Null-nil/ethermint/rpc/backend/mocks"
+	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
+	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"
 )
 
 func (suite *BackendTestSuite) TestBaseFee() {

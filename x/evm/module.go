@@ -10,7 +10,7 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/Null-nil/tendermint/abci/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
@@ -19,9 +19,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/evmos/ethermint/x/evm/client/cli"
-	"github.com/evmos/ethermint/x/evm/keeper"
-	"github.com/evmos/ethermint/x/evm/types"
+	"github.com/Null-nil/ethermint/x/evm/client/cli"
+	"github.com/Null-nil/ethermint/x/evm/keeper"
+	"github.com/Null-nil/ethermint/x/evm/types"
 )
 
 var (

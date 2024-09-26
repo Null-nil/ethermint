@@ -5,7 +5,7 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "github.com/Null-nil/tendermint/types"
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -13,10 +13,10 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	ethermint "github.com/evmos/ethermint/types"
-	"github.com/evmos/ethermint/x/evm/statedb"
-	"github.com/evmos/ethermint/x/evm/types"
-	evm "github.com/evmos/ethermint/x/evm/vm"
+	ethermint "github.com/Null-nil/ethermint/types"
+	"github.com/Null-nil/ethermint/x/evm/statedb"
+	"github.com/Null-nil/ethermint/x/evm/types"
+	evm "github.com/Null-nil/ethermint/x/evm/vm"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
@@ -74,7 +74,7 @@ func (k *Keeper) TxConfig(ctx sdk.Context, txHash common.Hash) statedb.TxConfig 
 // beneficiary of the coinbase transaction (since we're not mining).
 //
 // NOTE: the RANDOM opcode is currently not supported since it requires
-// RANDAO implementation. See https://github.com/evmos/ethermint/pull/1520#pullrequestreview-1200504697
+// RANDAO implementation. See https://github.com/Null-nil/ethermint/pull/1520#pullrequestreview-1200504697
 // for more information.
 
 func (k *Keeper) NewEVM(
@@ -449,7 +449,7 @@ func (k *Keeper) ApplyMessageWithConfig(ctx sdk.Context,
 
 	// calculate a minimum amount of gas to be charged to sender if GasLimit
 	// is considerably higher than GasUsed to stay more aligned with Tendermint gas mechanics
-	// for more info https://github.com/evmos/ethermint/issues/1085
+	// for more info https://github.com/Null-nil/ethermint/issues/1085
 	gasLimit := sdk.NewDec(int64(msg.Gas()))
 	minGasMultiplier := k.GetMinGasMultiplier(ctx)
 	minimumGasUsed := gasLimit.Mul(minGasMultiplier)

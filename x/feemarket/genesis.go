@@ -1,11 +1,11 @@
 package feemarket
 
 import (
+	abci "github.com/Null-nil/tendermint/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/evmos/ethermint/x/feemarket/keeper"
-	"github.com/evmos/ethermint/x/feemarket/types"
+	"github.com/Null-nil/ethermint/x/feemarket/keeper"
+	"github.com/Null-nil/ethermint/x/feemarket/types"
 )
 
 // InitGenesis initializes genesis state based on exported genesis
