@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/big"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/ethermint/rpc/backend/mocks"
 	rpctypes "github.com/Null-nil/ethermint/rpc/types"
 	"github.com/Null-nil/ethermint/tests"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"

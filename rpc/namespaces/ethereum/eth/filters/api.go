@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Null-nil/cosmos-sdk/client"
 	"github.com/Null-nil/ethermint/rpc/types"
-	"github.com/cosmos/cosmos-sdk/client"
 
 	"github.com/Null-nil/tendermint/libs/log"
 

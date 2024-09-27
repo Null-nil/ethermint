@@ -2,12 +2,12 @@ package backend
 
 import (
 	"fmt"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	authtypes "github.com/Null-nil/cosmos-sdk/x/auth/types"
 	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
 	"github.com/Null-nil/ethermint/rpc/backend/mocks"
 	ethermint "github.com/Null-nil/ethermint/types"
 	tmrpcclient "github.com/Null-nil/tendermint/rpc/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/spf13/viper"

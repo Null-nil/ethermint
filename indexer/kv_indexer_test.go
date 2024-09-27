@@ -4,6 +4,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Null-nil/cosmos-sdk/client"
+	"github.com/Null-nil/cosmos-sdk/simapp/params"
 	"github.com/Null-nil/ethermint/app"
 	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
 	evmenc "github.com/Null-nil/ethermint/encoding"
@@ -13,8 +15,6 @@ import (
 	abci "github.com/Null-nil/tendermint/abci/types"
 	tmlog "github.com/Null-nil/tendermint/libs/log"
 	tmtypes "github.com/Null-nil/tendermint/types"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/simapp/params"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"

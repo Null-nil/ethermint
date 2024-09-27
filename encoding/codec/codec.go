@@ -1,10 +1,10 @@
 package codec
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/std"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/codec"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
+	"github.com/Null-nil/cosmos-sdk/std"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	cryptocodec "github.com/Null-nil/ethermint/crypto/codec"
 	ethermint "github.com/Null-nil/ethermint/types"

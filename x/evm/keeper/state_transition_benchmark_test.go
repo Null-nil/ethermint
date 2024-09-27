@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"

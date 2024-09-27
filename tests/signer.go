@@ -6,9 +6,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
+	cryptotypes "github.com/Null-nil/cosmos-sdk/crypto/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
 )

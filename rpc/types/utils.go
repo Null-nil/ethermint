@@ -11,8 +11,8 @@ import (
 	tmtypes "github.com/Null-nil/tendermint/types"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/cosmos/cosmos-sdk/client"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/Null-nil/cosmos-sdk/client"
+	errortypes "github.com/Null-nil/cosmos-sdk/types/errors"
 
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"

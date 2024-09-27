@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"github.com/Null-nil/cosmos-sdk/client/flags"
+	svrcmd "github.com/Null-nil/cosmos-sdk/server/cmd"
+	"github.com/Null-nil/cosmos-sdk/x/genutil/client/cli"
 
 	"github.com/Null-nil/ethermint/app"
 	ethermintd "github.com/Null-nil/ethermint/cmd/ethermintd"

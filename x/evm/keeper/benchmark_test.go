@@ -7,8 +7,8 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	authante "github.com/Null-nil/cosmos-sdk/x/auth/ante"
 	"github.com/ethereum/go-ethereum/common"
 
 	ethermint "github.com/Null-nil/ethermint/types"

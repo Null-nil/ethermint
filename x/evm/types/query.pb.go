@@ -6,8 +6,8 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	query "github.com/cosmos/cosmos-sdk/types/query"
+	github_com_cosmos_cosmos_sdk_types "github.com/Null-nil/cosmos-sdk/types"
+	query "github.com/Null-nil/cosmos-sdk/types/query"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -793,7 +793,7 @@ type EthCallRequest struct {
 	// gas_cap defines the default gas cap to be used
 	GasCap uint64 `protobuf:"varint,2,opt,name=gas_cap,json=gasCap,proto3" json:"gas_cap,omitempty"`
 	// proposer_address of the requested block in hex format
-	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,3,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/cosmos/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
+	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,3,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/Null-nil/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
 	// chain_id is the eip155 chain id parsed from the requested block header
 	ChainId int64 `protobuf:"varint,4,opt,name=chain_id,json=chainId,proto3" json:"chain_id,omitempty"`
 }
@@ -921,7 +921,7 @@ type QueryTraceTxRequest struct {
 	// block_time of requested transaction
 	BlockTime time.Time `protobuf:"bytes,7,opt,name=block_time,json=blockTime,proto3,stdtime" json:"block_time"`
 	// proposer_address is the proposer of the requested block
-	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,8,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/cosmos/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
+	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,8,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/Null-nil/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
 	// chain_id is the the eip155 chain id parsed from the requested block header
 	ChainId int64 `protobuf:"varint,9,opt,name=chain_id,json=chainId,proto3" json:"chain_id,omitempty"`
 }
@@ -1074,7 +1074,7 @@ type QueryTraceBlockRequest struct {
 	// block_time of the traced block
 	BlockTime time.Time `protobuf:"bytes,7,opt,name=block_time,json=blockTime,proto3,stdtime" json:"block_time"`
 	// proposer_address is the address of the requested block
-	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,8,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/cosmos/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
+	ProposerAddress github_com_cosmos_cosmos_sdk_types.ConsAddress `protobuf:"bytes,8,opt,name=proposer_address,json=proposerAddress,proto3,casttype=github.com/Null-nil/cosmos-sdk/types.ConsAddress" json:"proposer_address,omitempty"`
 	// chain_id is the eip155 chain id parsed from the requested block header
 	ChainId int64 `protobuf:"varint,9,opt,name=chain_id,json=chainId,proto3" json:"chain_id,omitempty"`
 }
@@ -1248,7 +1248,7 @@ var xxx_messageInfo_QueryBaseFeeRequest proto.InternalMessageInfo
 // QueryBaseFeeResponse returns the EIP1559 base fee.
 type QueryBaseFeeResponse struct {
 	// base_fee is the EIP1559 base fee
-	BaseFee *github_com_cosmos_cosmos_sdk_types.Int `protobuf:"bytes,1,opt,name=base_fee,json=baseFee,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Int" json:"base_fee,omitempty"`
+	BaseFee *github_com_cosmos_cosmos_sdk_types.Int `protobuf:"bytes,1,opt,name=base_fee,json=baseFee,proto3,customtype=github.com/Null-nil/cosmos-sdk/types.Int" json:"base_fee,omitempty"`
 }
 
 func (m *QueryBaseFeeResponse) Reset()         { *m = QueryBaseFeeResponse{} }

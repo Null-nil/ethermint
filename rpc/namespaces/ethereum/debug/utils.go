@@ -7,8 +7,8 @@ import (
 	"runtime/pprof"
 	"strings"
 
+	"github.com/Null-nil/cosmos-sdk/server"
 	"github.com/Null-nil/tendermint/libs/log"
-	"github.com/cosmos/cosmos-sdk/server"
 )
 
 // isCPUProfileConfigurationActivated checks if cpuprofile was configured via flag

@@ -7,7 +7,7 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
+	errortypes "github.com/Null-nil/cosmos-sdk/types/errors"
 )
 
 const maxBitLen = 256

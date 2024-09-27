@@ -1,10 +1,10 @@
 package backend
 
 import (
+	sdkerrors "github.com/Null-nil/cosmos-sdk/types/errors"
 	"github.com/Null-nil/ethermint/rpc/backend/mocks"
 	rpc "github.com/Null-nil/ethermint/rpc/types"
 	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 var _ feemarkettypes.QueryClient = &mocks.FeeMarketQueryClient{}

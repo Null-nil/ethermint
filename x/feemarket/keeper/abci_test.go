@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"fmt"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/tendermint/abci/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func (suite *KeeperTestSuite) TestEndBlock() {

@@ -1,8 +1,8 @@
 package flags
 
 import (
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/Null-nil/cosmos-sdk/client/flags"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

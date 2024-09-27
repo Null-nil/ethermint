@@ -13,8 +13,8 @@ import (
 
 	"github.com/Null-nil/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"

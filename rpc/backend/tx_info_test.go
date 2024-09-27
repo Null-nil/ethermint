@@ -2,6 +2,7 @@ package backend
 
 import (
 	"fmt"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/ethermint/indexer"
 	"github.com/Null-nil/ethermint/rpc/backend/mocks"
 	rpctypes "github.com/Null-nil/ethermint/rpc/types"
@@ -11,7 +12,6 @@ import (
 	tmlog "github.com/Null-nil/tendermint/libs/log"
 	tmrpctypes "github.com/Null-nil/tendermint/rpc/core/types"
 	"github.com/Null-nil/tendermint/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	dbm "github.com/tendermint/tm-db"

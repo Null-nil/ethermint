@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	evmkeeper "github.com/Null-nil/ethermint/x/evm/keeper"
 	"github.com/Null-nil/ethermint/x/evm/statedb"

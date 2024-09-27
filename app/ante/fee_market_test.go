@@ -4,11 +4,11 @@ import (
 	"math/big"
 
 	sdkmath "cosmossdk.io/math"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	banktypes "github.com/Null-nil/cosmos-sdk/x/bank/types"
 	"github.com/Null-nil/ethermint/app/ante"
 	"github.com/Null-nil/ethermint/tests"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 )
 

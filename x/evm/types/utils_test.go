@@ -5,13 +5,13 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/Null-nil/cosmos-sdk/client"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	authtx "github.com/Null-nil/cosmos-sdk/x/auth/tx"
 	"github.com/Null-nil/ethermint/app"
 	"github.com/Null-nil/ethermint/encoding"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	"github.com/cosmos/cosmos-sdk/client"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	proto "github.com/gogo/protobuf/proto"
 
 	"github.com/Null-nil/ethermint/tests"

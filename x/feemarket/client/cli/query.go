@@ -3,8 +3,8 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/Null-nil/cosmos-sdk/client"
+	"github.com/Null-nil/cosmos-sdk/client/flags"
 
 	"github.com/Null-nil/ethermint/x/feemarket/types"
 )

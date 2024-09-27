@@ -12,15 +12,15 @@ import (
 	bip39 "github.com/cosmos/go-bip39"
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/input"
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/client"
+	"github.com/Null-nil/cosmos-sdk/client/flags"
+	"github.com/Null-nil/cosmos-sdk/client/input"
+	"github.com/Null-nil/cosmos-sdk/client/keys"
+	"github.com/Null-nil/cosmos-sdk/crypto/hd"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
+	"github.com/Null-nil/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/Null-nil/cosmos-sdk/crypto/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 )
 
 const (

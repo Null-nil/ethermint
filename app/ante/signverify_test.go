@@ -3,10 +3,10 @@ package ante_test
 import (
 	"math/big"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/ethermint/app/ante"
 	"github.com/Null-nil/ethermint/tests"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 )
 

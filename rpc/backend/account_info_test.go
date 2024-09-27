@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	authtypes "github.com/Null-nil/cosmos-sdk/x/auth/types"
 	tmrpcclient "github.com/Null-nil/tendermint/rpc/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 

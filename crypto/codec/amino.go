@@ -1,11 +1,11 @@
 package codec
 
 import (
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/Null-nil/cosmos-sdk/client/keys"
+	"github.com/Null-nil/cosmos-sdk/codec"
+	"github.com/Null-nil/cosmos-sdk/codec/legacy"
+	cryptocodec "github.com/Null-nil/cosmos-sdk/crypto/codec"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
 
 	"github.com/Null-nil/ethermint/crypto/ethsecp256k1"
 )

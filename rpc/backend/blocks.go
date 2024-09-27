@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"strconv"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	grpctypes "github.com/Null-nil/cosmos-sdk/types/grpc"
 	rpctypes "github.com/Null-nil/ethermint/rpc/types"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 	tmrpctypes "github.com/Null-nil/tendermint/rpc/core/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
@@ -424,7 +424,7 @@ func (b *Backend) RPCBlockFromTendermintBlock(
 	gasUsed := uint64(0)
 
 	for _, txsResult := range blockRes.TxsResults {
-		// workaround for cosmos-sdk bug. https://github.com/cosmos/cosmos-sdk/issues/10832
+		// workaround for cosmos-sdk bug. https://github.com/Null-nil/cosmos-sdk/issues/10832
 		if ShouldIgnoreGasUsed(txsResult) {
 			// block gas limit has exceeded, other txs must have failed with same reason.
 			break

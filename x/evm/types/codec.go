@@ -2,12 +2,12 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/msgservice"
-	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/Null-nil/cosmos-sdk/codec"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	errortypes "github.com/Null-nil/cosmos-sdk/types/errors"
+	"github.com/Null-nil/cosmos-sdk/types/msgservice"
+	"github.com/Null-nil/cosmos-sdk/types/tx"
 	proto "github.com/gogo/protobuf/proto"
 )
 

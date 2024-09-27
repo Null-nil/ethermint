@@ -10,9 +10,9 @@ import (
 	tmtypes "github.com/Null-nil/tendermint/types"
 
 	errorsmod "cosmossdk.io/errors"
+	"github.com/Null-nil/cosmos-sdk/telemetry"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/armon/go-metrics"
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/Null-nil/ethermint/x/evm/types"
 )

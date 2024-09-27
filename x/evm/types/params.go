@@ -6,9 +6,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/params"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	paramtypes "github.com/Null-nil/cosmos-sdk/x/params/types"
 	"github.com/Null-nil/ethermint/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/ethereum/go-ethereum/core/vm"
 )
 

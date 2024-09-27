@@ -4,7 +4,7 @@ import (
 	"math"
 	"math/big"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	"github.com/Null-nil/ethermint/app/ante"
 	"github.com/Null-nil/ethermint/server/config"

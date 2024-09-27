@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/ethermint/x/evm/statedb"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"

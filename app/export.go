@@ -6,12 +6,12 @@ import (
 
 	tmproto "github.com/Null-nil/tendermint/proto/tendermint/types"
 
-	servertypes "github.com/cosmos/cosmos-sdk/server/types"
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	servertypes "github.com/Null-nil/cosmos-sdk/server/types"
+	"github.com/Null-nil/cosmos-sdk/simapp"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	slashingtypes "github.com/Null-nil/cosmos-sdk/x/slashing/types"
+	"github.com/Null-nil/cosmos-sdk/x/staking"
+	stakingtypes "github.com/Null-nil/cosmos-sdk/x/staking/types"
 
 	"github.com/Null-nil/ethermint/encoding"
 )

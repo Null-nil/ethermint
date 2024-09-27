@@ -3,10 +3,10 @@ package ante_test
 import (
 	"math/big"
 
+	storetypes "github.com/Null-nil/cosmos-sdk/store/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 	"github.com/Null-nil/ethermint/app/ante"
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func (suite AnteTestSuite) TestEthSetupContextDecorator() {

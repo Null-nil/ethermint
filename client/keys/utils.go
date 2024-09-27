@@ -6,8 +6,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/cosmos/cosmos-sdk/client/keys"
-	cryptokeyring "github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/Null-nil/cosmos-sdk/client/keys"
+	cryptokeyring "github.com/Null-nil/cosmos-sdk/crypto/keyring"
 )
 
 // available output formats.

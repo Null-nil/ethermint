@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/cosmos/cosmos-sdk/server"
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/server"
+	svrcmd "github.com/Null-nil/cosmos-sdk/server/cmd"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	"github.com/Null-nil/ethermint/app"
 	cmdcfg "github.com/Null-nil/ethermint/cmd/config"

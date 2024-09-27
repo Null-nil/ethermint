@@ -11,9 +11,9 @@ import (
 
 	hdwallet "github.com/miguelmota/go-ethereum-hdwallet"
 
-	amino "github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	amino "github.com/Null-nil/cosmos-sdk/codec"
+	"github.com/Null-nil/cosmos-sdk/codec/types"
+	"github.com/Null-nil/cosmos-sdk/crypto/keyring"
 
 	cryptocodec "github.com/Null-nil/ethermint/crypto/codec"
 	enccodec "github.com/Null-nil/ethermint/encoding/codec"

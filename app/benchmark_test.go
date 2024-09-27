@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
+	"github.com/Null-nil/cosmos-sdk/simapp"
 	"github.com/Null-nil/ethermint/encoding"
 	abci "github.com/Null-nil/tendermint/abci/types"
 	"github.com/Null-nil/tendermint/libs/log"
-	"github.com/cosmos/cosmos-sdk/simapp"
 	dbm "github.com/tendermint/tm-db"
 )
 

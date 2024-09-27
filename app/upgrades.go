@@ -1,9 +1,9 @@
 package app
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/types/module"
+	upgradetypes "github.com/Null-nil/cosmos-sdk/x/upgrade/types"
 )
 
 func (app *EthermintApp) RegisterUpgradeHandlers() {

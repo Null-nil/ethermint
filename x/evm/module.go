@@ -12,12 +12,12 @@ import (
 
 	abci "github.com/Null-nil/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/Null-nil/cosmos-sdk/client"
+	"github.com/Null-nil/cosmos-sdk/codec"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/types/module"
+	simtypes "github.com/Null-nil/cosmos-sdk/types/simulation"
 
 	"github.com/Null-nil/ethermint/x/evm/client/cli"
 	"github.com/Null-nil/ethermint/x/evm/keeper"

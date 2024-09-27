@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
+	"github.com/Null-nil/cosmos-sdk/types/tx"
+	authtypes "github.com/Null-nil/cosmos-sdk/x/auth/types"
 )
 
 // RegisterInterfaces registers the tendermint concrete client-related

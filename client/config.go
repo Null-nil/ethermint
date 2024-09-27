@@ -10,7 +10,7 @@ import (
 
 	"github.com/Null-nil/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/Null-nil/cosmos-sdk/client/flags"
 
 	ethermint "github.com/Null-nil/ethermint/types"
 )

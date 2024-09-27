@@ -1,7 +1,7 @@
 package types
 
 import (
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	codectypes "github.com/Null-nil/cosmos-sdk/codec/types"
 )
 
 // UnpackInterfaces implements UnpackInterfacesMesssage.UnpackInterfaces

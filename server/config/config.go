@@ -11,8 +11,8 @@ import (
 	"github.com/Null-nil/tendermint/libs/strings"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/Null-nil/cosmos-sdk/server/config"
+	errortypes "github.com/Null-nil/cosmos-sdk/types/errors"
 )
 
 const (

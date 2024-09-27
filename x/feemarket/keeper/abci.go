@@ -6,8 +6,8 @@ import (
 	"github.com/Null-nil/ethermint/x/feemarket/types"
 	abci "github.com/Null-nil/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/Null-nil/cosmos-sdk/telemetry"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 )
 
 // BeginBlock updates base fee

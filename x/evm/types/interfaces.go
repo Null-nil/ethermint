@@ -3,9 +3,9 @@ package types
 import (
 	"math/big"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	authtypes "github.com/Null-nil/cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/Null-nil/cosmos-sdk/x/staking/types"
 
 	feemarkettypes "github.com/Null-nil/ethermint/x/feemarket/types"
 	"github.com/ethereum/go-ethereum/core"

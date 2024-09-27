@@ -3,11 +3,11 @@ package keeper
 import (
 	"math/big"
 
+	"github.com/Null-nil/cosmos-sdk/codec"
+	storetypes "github.com/Null-nil/cosmos-sdk/store/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	paramtypes "github.com/Null-nil/cosmos-sdk/x/params/types"
 	"github.com/Null-nil/tendermint/libs/log"
-	"github.com/cosmos/cosmos-sdk/codec"
-	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 
 	"github.com/Null-nil/ethermint/x/feemarket/types"
 )

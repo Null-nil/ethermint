@@ -6,7 +6,7 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/Null-nil/cosmos-sdk/types"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
@@ -154,7 +154,7 @@ var xxx_messageInfo_QueryBaseFeeRequest proto.InternalMessageInfo
 // QueryBaseFeeResponse returns the EIP1559 base fee.
 type QueryBaseFeeResponse struct {
 	// base_fee is the EIP1559 base fee
-	BaseFee *github_com_cosmos_cosmos_sdk_types.Int `protobuf:"bytes,1,opt,name=base_fee,json=baseFee,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Int" json:"base_fee,omitempty"`
+	BaseFee *github_com_cosmos_cosmos_sdk_types.Int `protobuf:"bytes,1,opt,name=base_fee,json=baseFee,proto3,customtype=github.com/Null-nil/cosmos-sdk/types.Int" json:"base_fee,omitempty"`
 }
 
 func (m *QueryBaseFeeResponse) Reset()         { *m = QueryBaseFeeResponse{} }

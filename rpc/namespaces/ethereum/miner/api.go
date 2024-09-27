@@ -1,7 +1,7 @@
 package miner
 
 import (
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/Null-nil/cosmos-sdk/server"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"

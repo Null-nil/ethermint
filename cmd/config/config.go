@@ -1,7 +1,7 @@
 package config
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
 
 	ethermint "github.com/Null-nil/ethermint/types"
 )

@@ -5,8 +5,8 @@ package rpc
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/Null-nil/cosmos-sdk/client"
+	"github.com/Null-nil/cosmos-sdk/server"
 
 	"github.com/ethereum/go-ethereum/rpc"
 

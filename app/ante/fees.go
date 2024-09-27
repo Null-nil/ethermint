@@ -4,8 +4,8 @@ import (
 	"math/big"
 
 	errorsmod "cosmossdk.io/errors"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/Null-nil/cosmos-sdk/types"
+	errortypes "github.com/Null-nil/cosmos-sdk/types/errors"
 
 	evmtypes "github.com/Null-nil/ethermint/x/evm/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
